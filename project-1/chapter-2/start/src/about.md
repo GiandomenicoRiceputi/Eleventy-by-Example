@@ -2,6 +2,7 @@
 layout: "layouts/base.html"
 title: "About Us"
 bannerContent: "This is the little paragraph about the company."
+pageId: "about"
 ---
 
 ## The page content can go here
