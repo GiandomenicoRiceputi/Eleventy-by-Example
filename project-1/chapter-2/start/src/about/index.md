@@ -14,3 +14,9 @@ It can use any markdown, since we're in a markdown page. Like [an anchor](https:
 
 1. Or an ordered list
 1. With some items
+
+<section class="triptych">
+    {% for triptych in triptychs %}
+        {% include "includes/triptych.html", headline: triptych.headline, content: triptych.content %}
+    {% endfor %}
+</section>
